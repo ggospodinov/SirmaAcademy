@@ -1,3 +1,5 @@
+/*exam typeSelector */
+
 p {
     color: blue;
     font-weight: bold;
@@ -5,12 +7,15 @@ p {
 h1, h2{
     color: green;
 }
+
+/*classSelector */
 div{
     color:aqua;
     font-weight: lighter;
     font-size: x-large;
     font-style: italic;
 }
+
 .highlight{
     color:blue;
     font-style: normal;
@@ -20,8 +25,28 @@ div{
     color: brown;
     font-size:  30px;
 }
+
+/*exam percentageWidth */
 .percentage-width{
     color: brown;
     width: 50%;
    border:5px solid red
+}
+
+/*exam nestedDiv */
+.parent{
+    width: 100%;
+    color: brown
+    
+}
+.child{
+    width:50%;
+    color: blue;
+}
+
+/*exam pixelWidth */
+.fixed-width{
+    width: 300px;
+    color: blue;
+    background-color:aqua
 }
