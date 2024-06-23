@@ -50,3 +50,157 @@ div{
     color: blue;
     background-color:aqua
 }
+
+/*exam pixelPercentageWidth*/
+.pixel-width{
+    width: 300px;
+    color: blueviolet;
+    font-style: normal;
+}
+.percentage-widths{
+    width: 50%;
+    font-style: normal;
+    color: blue;
+}
+
+/*exam EmUnits*/
+.parents {
+font-size: 15px;
+color:red
+}
+
+ .childs {
+    font-size: 1.5em;
+    color: blue;
+}
+
+/*exam RemUnits*/
+
+html {
+font-size: 10px;
+}
+
+.rem-size {
+    font-size: 2rem;
+}
+
+/*exam Specificity */
+
+p {
+    font-style: italic;
+}
+
+.highlight-one {
+    font-style: oblique;
+}
+
+#unique {
+    font-style: italic;
+}
+
+.highlight-two {
+    font-style: normal;
+}
+
+/*exam IDSelector */
+#unique-element{
+    font-style: italic;
+    color: blue;
+}
+div{
+    color: aquamarine;
+    font-style:normal;
+}
+
+/*exam AttributeSelector */
+
+input[type="text"] {
+    font-style: italic;
+    color: blue;
+}
+
+input[type="submit"] {
+    font-style: normal;
+    color: brown;
+}
+
+
+a[href="https://example.com"] {
+    font-size: 14px;
+    color: blueviolet;
+     
+}
+
+a[href="https://another.com"] {
+    font-size: 14px;
+    color:aquamarine;
+     
+}
+
+/*exam UniversalSelector */
+
+
+.alldiv{
+     width: 320px;
+     height: 50px;
+     color:blue;
+     font-style: italic;
+     padding: 10px;
+     border: 5px solid gray;
+     margin-left: 20px;
+
+     
+}
+
+/*exam DescendantCombinator */
+
+div p{
+    color:brown;
+}
+
+
+/*exam Combinator Comparison */
+
+/* .div-first p {
+    font-style: italic;
+    color: blue;
+
+} */
+
+div > p {
+    font-style: normal;
+    color:burlywood;
+}
+
+/*exam DisplayProperty */
+
+.block {
+    font-style: italic;
+    color: blue;
+    border: 5px solid gray;
+    margin-bottom: 10px;
+
+}
+
+.inline {
+    font-style: normal;
+    color: brown;
+    font-size: 50px;
+    border: 10px solid blue;
+
+}
+
+.inline-block {
+    margin-top: 10px;
+   font-style: initial;
+   color: burlywood;
+   border: 5px solid lightseagreen;
+}
+
+
+
+
+
+
+
+
